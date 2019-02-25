@@ -20,7 +20,7 @@ public class ScoreScript : MonoBehaviour
     void Update()
     {
         timeAlive += Time.deltaTime;
-        scoreText.text = "Time Passed: " + timeAlive.ToString("F2");
+        scoreText.text = "Score: " + timeAlive.ToString("F2");
     }
 
     private void OnDestroy()
